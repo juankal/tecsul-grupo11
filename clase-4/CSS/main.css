@@ -1,0 +1,80 @@
+.wrapper {
+    width: 600px;
+    margin: auto;
+}
+
+header h1{
+    position: absolute;
+    width: 104px;
+    height: 49px;
+    left: 10px;
+    top: -4px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+}
+
+.section-1 h2 {
+    position: static;
+    width: 504px;
+    left: calc(50% - 504px/2);
+    top: 3.14%;
+    bottom: 89.15%;
+
+    /* Big Title */
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+.section-1 p{
+    position: static;
+    width: 504px;
+    left: calc(50% - 504px/2);
+    top: 75.16%;
+    bottom: 13.52%;
+
+    /* Texts */
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 24px;
+    /* or 126% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+section-1 button-1 {
+    position: static;
+    width: 71px;
+    height: 16px;
+    left: 13px;
+    top: 13px;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+    letter-spacing: 0.125px;
+
+    color: #000000;
+}
