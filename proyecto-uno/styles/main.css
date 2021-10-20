@@ -1,0 +1,150 @@
+/*variables globales */
+*{
+	padding: 0;
+	margin:0;
+	font-family: Arial;
+}
+
+/*nav*/
+header{
+	background: #00AF1C;
+	color:#ffffff;
+	margin: 0;
+    
+}
+
+header nav  {
+	display: flex;
+	justify-content: space-between;
+}
+
+header   ul {
+	 display: flex;
+}
+
+header  ul {
+	list-style:none;
+}
+
+header   li{
+	padding-right: 10px;
+	font-family: Arial;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 44px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+header  li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* section */
+ section {
+	margin: 50px 40px;
+}
+
+ section ul{
+	margin-top: 50px;
+}
+
+ section li {
+	/*padding: 2.5px*/
+	margin-left: 49px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 44px;
+}
+
+/* h2 */
+header nav h2{
+	font-family: Arial;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 37px;
+	padding: 30px 0 32px 32px;
+}
+
+.home h2 ,
+.service h2,
+.briefcase h2 ,
+.contact h2 ,
+footer {
+	font-family: Arial;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+	padding-bottom: 16px;
+ }
+
+/* img */
+img{
+	margin: 33px  13px 0;
+}
+
+/* HOME*/
+.home h2{
+	color:#3B06D2;
+}
+
+/* SERVICIO */
+.service h2{
+	color: #D206B2;
+}
+
+/* PORTAFOLIO */
+.briefcase h2{
+	color: #AAD206;
+	
+}
+
+/* CONTACTO */
+.contact h2{
+	color: #06D2C6;
+}
+
+.contact input{
+	display:block;
+}
+
+.contact input[type="text"]{
+	box-sizing: border-box;
+	margin-top: 13px;
+	margin-right: 62px;
+	width: 100%;
+	padding: 34px  0 28px 26px;
+}
+
+.contact textarea {
+	box-sizing: border-box;
+	margin-top: 40px;
+	margin-right: 62px;
+	width: 100%;
+	padding: 20px 0 169px 25px;
+}
+
+.contact input[type="submit"]{
+	margin-top: 37px;
+	color: #22A900;
+	padding: 24px 66px;
+	background: #ffffff;
+	border: 1px solid #22A900;
+	box-sizing: border-box;
+}
+
+/*footer*/
+footer{
+	margin-top: 270px;
+	display: flex;
+	background: #00AF1C;
+	color: #ffffff;
+	justify-content: space-between;
+	padding: 35px;
+	padding-bottom: 19px;
+}

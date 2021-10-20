@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --colortextos: #777777;
+            --paddingsecciones: 60px 0;
+            --marginelementos: 40px; 
+        }
+
+        .contenedor {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: var(--paddingsecciones);
+        }
+
+        .menu-navegacion {
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+
+        .logo {
+            height: 70px;
+
+        }
+
+        .logo img {
+            display: block;
+            height: 100%;
+        }
+
+        .enlaces li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        .enlaces a{
+            text-decoration: none;
+            color: #000000;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="menu-navegacion contenedor">
+            <div class="logo">
+                <img src="./img/image 1.png" alt="logo">
+            </div>
+            <div class="enlaces">
+                <li><a href="#">Todos</a></li>
+                <li><a href="#">Front End</a></li>
+                <li><a href="#">Back End</a></li>
+                <li><a href="#">Servidores</a></li>
+            </div>
+        </nav>
+        <section class="hero">
+            <div class="contenedor-textos contenedor">
+                <h1>Juankal</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laboriosam excepturi earum delectus quibusdam dignissimos voluptatem error non assumenda, placeat suscipit autem adipisci, voluptatibus reiciendis dolorem ullam, nulla alias consequatur?</p>
+                <a href="#">Mas Info</a>
+            </div>
+        </section>
+    </header>
+</body>
+</html>

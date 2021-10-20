@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 64%;
+}
+
+body{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 6.4rem;
+    margin-right: 10px;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 138px;
+    padding: 0 15px;
+    background: #00AAB5;
+    justify-content: space-between;
+}
+
+header h3{
+    font-size: 2.1rem;
+}
+
+header > div{
+    display: flex;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header li{
+    margin-right: 20px;
+}
+
+header a{
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
