@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    font-size: 60%;
+}
+
+*, *:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 11px;
+    font-family: arial;
+    max-width: 960px;
+    margin: 0 auto;
+    box-shadow: 4.5px 12px 50px .6px rgba(0,0,0,0,.42);
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h1, h2 {
+    color: white;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+.contenedor-header {
+    display: none;
+}
+
+.container-header {
+    background-color: #00AAB5;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-header h2 {
+    font-size: 5rem;
+}
+
